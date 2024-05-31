@@ -18,4 +18,4 @@ CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
 
 
 
-# Welcome! by MaV & Caddy - Swan AAR
+# Welcome! by MaV & Caddy - Swan AAR ©2024
