@@ -3,10 +3,9 @@
 
 [![Docker Image CI](https://github.com/xxScorpius97xx/WelcomeToLagrange/actions/workflows/docker-image.yml/badge.svg)](https://github.com/xxScorpius97xx/WelcomeToLagrange/actions/workflows/docker-image.yml)
 
-![Description](https://data.mcs.lagrangedao.org/ipfs/QmSnGw8qGXNF2CLNjVHKyXjHi2dyPG3N7e58h1HFwouz7a)
+![Description](https://data.mcs.lagrangedao.org/ipfs/QmQAsPSwq2JzrDjZJ65zedHVZMtQKgrCgRmfsnHhxhAiNg)
 
 Welcome to Lagrange -
 Swan Atom Acceleration Race
 
-by MaV - ©2024
-#caddy 
+by MaV #caddy | ©2024
