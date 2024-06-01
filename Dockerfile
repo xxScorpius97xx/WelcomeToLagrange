@@ -8,6 +8,8 @@ COPY Caddyfile /etc/caddy/Caddyfile
 COPY index.html /usr/share/caddy/
 COPY animation.gif /usr/share/caddy/
 COPY caddy.jpeg /usr/share/caddy/
+COPY styles.css /usr/share/caddy/
+COPY matrix.jpg /usr/share/caddy/
 
 # Expose port 80 to the outside world
 EXPOSE 80
