@@ -10,6 +10,7 @@ COPY animation.gif /usr/share/caddy/
 COPY caddy.jpeg /usr/share/caddy/
 COPY styles.css /usr/share/caddy/
 COPY matrix.jpg /usr/share/caddy/
+COPY lagrange_logo.png /usr/share/caddy/
 
 # Expose port 80 to the outside world
 EXPOSE 80
