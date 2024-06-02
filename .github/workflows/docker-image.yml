@@ -19,11 +19,11 @@ jobs:
       run: echo "IMAGE_TAG=$(date +%s)" >> $GITHUB_ENV
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag mavhub/welcome:${{ env.IMAGE_TAG }}
+      run: docker build . --file Dockerfile --tag mavhub/welcomev2:${{ env.IMAGE_TAG }}
       
     - name: Login to Docker Hub
       run: echo "${{ secrets.DOCKER_ACCESS_TOKEN }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
     - name: Push Docker image to Docker Hub
-      run: docker push mavhub/welcome:${{ env.IMAGE_TAG }}
+      run: docker push mavhub/welcomev2:${{ env.IMAGE_TAG }}
       
